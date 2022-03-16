@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit --server.port $PORT app.py --timeout 10 --max-requests 1200
+web: sh setup.sh && streamlit run --server.port $PORT app.py
